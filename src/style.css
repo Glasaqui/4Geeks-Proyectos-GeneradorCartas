@@ -1,1 +1,32 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: #0e7e12;
+}
+
+.carta {
+  display: inline-block;
+  background: white;
+  margin: auto;
+  height: 300px;
+  width: 200px;
+  padding-top: 70px;
+  font-size: 75px;
+  border: 1px solid black;
+  border-radius: 20px;
+  position: relative;
+}
+
+.top-card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 80px;
+}
+
+.foot-card {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 80px;
+}
